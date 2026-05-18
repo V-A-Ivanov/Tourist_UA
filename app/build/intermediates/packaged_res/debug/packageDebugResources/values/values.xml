@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_ukraine">#005BBB</color>
+    <color name="md_theme_dark_background">#121212</color>
+    <color name="md_theme_dark_onBackground">#F0F0F0</color>
+    <color name="md_theme_dark_onPrimary">#001A3D</color>
+    <color name="md_theme_dark_onPrimaryContainer">#D6E4FF</color>
+    <color name="md_theme_dark_onSecondary">#1A1A1A</color>
+    <color name="md_theme_dark_onSurface">#F0F0F0</color>
+    <color name="md_theme_dark_onSurfaceVariant">#C8C8C8</color>
+    <color name="md_theme_dark_outline">#8A8A8E</color>
+    <color name="md_theme_dark_outlineVariant">#48484A</color>
+    <color name="md_theme_dark_primary">#7DB8FF</color>
+    <color name="md_theme_dark_primaryContainer">#003580</color>
+    <color name="md_theme_dark_secondary">#FFD700</color>
+    <color name="md_theme_dark_surface">#1E1E1E</color>
+    <color name="md_theme_dark_surfaceVariant">#2C2C2E</color>
+    <color name="md_theme_light_background">#F8F8F8</color>
+    <color name="md_theme_light_onBackground">#0D0D0D</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_onPrimaryContainer">#002870</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_onSurface">#0D0D0D</color>
+    <color name="md_theme_light_onSurfaceVariant">#3A3A3A</color>
+    <color name="md_theme_light_outline">#6B6B6B</color>
+    <color name="md_theme_light_outlineVariant">#C0C0C0</color>
+    <color name="md_theme_light_primary">#004A9E</color>
+    <color name="md_theme_light_primaryContainer">#D6E4FF</color>
+    <color name="md_theme_light_secondary">#B8860B</color>
+    <color name="md_theme_light_surface">#F8F8F8</color>
+    <color name="md_theme_light_surfaceVariant">#E8EDF5</color>
+    <color name="yellow_ukraine">#FFD700</color>
+    <string name="add_new">Add new location</string>
+    <string name="app_name">Турист UA</string>
+    <string name="description_hint">Description</string>
+    <string name="name_hint">Name</string>
+    <string name="region_hint">Region</string>
+    <string name="search_hint">Search location...</string>
+    <string name="type_hint">Type</string>
+    <string name="year_hint">Year</string>
+    <style name="Theme.TouristUA" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="colorOutlineVariant">@color/md_theme_light_outlineVariant</item>
+    </style>
+</resources>
