@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+
+    <!-- Корпус — темно-синьо-сірий, добре видно на світлому і темному фоні -->
+    <path
+        android:fillColor="#5C6B7A"
+        android:pathData="
+            M28,62 Q24,62 24,66 L24,118 Q24,122 28,122
+            L132,122 Q136,122 136,118 L136,66 Q136,62 132,62
+            L108,62 L102,50 Q100,46 96,46
+            L64,46 Q60,46 58,50 L52,62 Z" />
+
+    <!-- Лінза — темне кільце -->
+    <path
+        android:fillColor="#3D4E5C"
+        android:pathData="M80,92 m-26,0 a26,26 0 1,0 52,0 a26,26 0 1,0 -52,0" />
+
+    <!-- Лінза — внутрішня -->
+    <path
+        android:fillColor="#4A5C6B"
+        android:pathData="M80,92 m-18,0 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0" />
+
+    <!-- Блік на лінзі -->
+    <path
+        android:fillColor="#6A7D8C"
+        android:pathData="M72,86 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+
+    <!-- Спалах -->
+    <path
+        android:fillColor="#8A9BAA"
+        android:pathData="M36,70 Q34,70 34,72 L34,80 Q34,82 36,82 L50,82 Q52,82 52,80 L52,72 Q52,70 50,70 Z" />
+
+    <!-- Кнопка затвора -->
+    <path
+        android:fillColor="#8A9BAA"
+        android:pathData="M66,58 Q64,58 64,60 L64,62 L96,62 L96,60 Q96,58 94,58 Z" />
+
+    <!-- Червоний X — товстий і яскравий -->
+    <path
+        android:strokeColor="#E53935"
+        android:strokeWidth="9"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M66,79 L94,107" />
+
+    <path
+        android:strokeColor="#E53935"
+        android:strokeWidth="9"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M94,79 L66,107" />
+
+</vector>

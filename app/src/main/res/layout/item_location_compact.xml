@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="1dp"
+    app:cardBackgroundColor="?attr/colorSurface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_flag_stripe"
+            android:layout_marginEnd="12dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCardName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Назва"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCardDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Опис"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:alpha="0.7" />
+        </LinearLayout>
+        <TextView
+                android:id="@+id/tvCardCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📍 Київ"
+                android:textColor="?attr/colorOnPrimaryContainer"
+                android:textSize="11sp"
+                android:background="@drawable/bg_city_badge"
+                android:backgroundTint="?attr/colorPrimaryContainer"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

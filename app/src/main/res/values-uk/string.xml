@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Турист UA</string>
+    <string name="search_hint">Пошук локації...</string>
+    <string name="add_new">Додати нову локацію</string>
+    <string name="name_hint">Назва</string>
+    <string name="region_hint">Регіон</string>
+    <string name="type_hint">Тип</string>
+    <string name="year_hint">Рік</string>
+    <string name="description_hint">Опис</string>
+</resources>

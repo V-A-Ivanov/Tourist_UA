@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Турист UA</string>
+    <string name="search_hint">Search location...</string>
+    <string name="add_new">Add new location</string>
+    <string name="name_hint">Name</string>
+    <string name="region_hint">Region</string>
+    <string name="type_hint">Type</string>
+    <string name="year_hint">Year</string>
+    <string name="description_hint">Description</string>
+</resources>
